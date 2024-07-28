@@ -1,0 +1,38 @@
+/* static/admin/css/admin.css
+.form-row.field-title, .form-row.field-content {
+    width: 100%;
+    display: block;
+}
+
+.django-quill-editor {
+    display: block;
+    width: 100% !important;
+    height: 500px !important; /* Ajusta la altura según sea necesario 
+} */
+
+/* static/admin/css/custom_admin.css */
+/* .django-quill-editor .ql-container {
+    width: 100% !important;
+    height: 500px !important; /* Ajusta la altura según sea necesario 
+}
+
+.django-quill-editor .ql-editor {
+    min-height: 400px; /* Ajusta según sea necesario 
+} */
+
+.flex-container {
+    display: block;
+    width: 100%;
+}
+
+.django-quill-widget-container, .ql-snow {
+    min-width: 55rem;
+}
+
+.django-quill-widget, .ql-container {
+    min-height: 200px;
+}
+
+/* .id_content, django-quill-widget-container {
+    width: 100%;
+} */

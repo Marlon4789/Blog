@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'editor',
     'django_quill',
     'colorfield',
+    'interfaces',
 ]
 
 X_FRAME_OPTIONS = "SAMEORIGIN"

@@ -20,6 +20,7 @@ from django.contrib import admin
 from django.urls import path, include
 # from editor import views
 from interfaces import views
+from form_blocks import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +28,8 @@ urlpatterns = [
     path('editor/', include('editor.urls')),  
     # URLs interfaces
      path('home/', include('interfaces.urls')),
+    # URLs form_blocks
+    path('form_blocks/', include('form_blocks.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

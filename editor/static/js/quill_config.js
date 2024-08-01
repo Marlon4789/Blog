@@ -1,3 +1,4 @@
+// static/js/quill_config.js
 var quill = new Quill('#editor', {
     theme: 'snow',
     modules: {
